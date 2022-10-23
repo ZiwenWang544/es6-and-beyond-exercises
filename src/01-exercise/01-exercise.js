@@ -16,7 +16,15 @@
  */
 
 // Finish the code of the function
-function exercise01() {}
+function exercise01(a,b) {
+    if(a===undefined){
+        a = 1;
+    }
+    if(b===undefined){
+        b = 1;
+    }
+    return a * b;
+}
 
 // Don’t change the code bellow this line
 import setup01Exercise from "./01-exercise-setup";
